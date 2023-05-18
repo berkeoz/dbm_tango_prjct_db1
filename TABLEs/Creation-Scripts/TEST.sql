@@ -1,4 +1,5 @@
 CREATE TABLE TEST
-   (	COL1 NUMBER(*,0)
+   (	COL1 NUMBER(*,0),
+	COL2 NUMBER(*,0)
    ) ;
 
