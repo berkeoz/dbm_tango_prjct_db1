@@ -1,0 +1,4 @@
+CREATE TABLE TEST
+   (	COL1 NUMBER(*,0)
+   ) ;
+
