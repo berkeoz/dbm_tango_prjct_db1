@@ -21,7 +21,7 @@
       "Identity": [],
       "IDENTITY_COLUMN": "NO",
       "INTERNAL_COLUMN_ID": 1.0,
-      "NULLABLE": "Y",
+      "NULLABLE": "N",
       "QUALIFIED_COL_NAME": "COL1",
       "SEGMENT_COLUMN_ID": 1.0,
       "TABLE_NAME": "TEST",
@@ -74,6 +74,35 @@
     }
   ],
   "Grants": [],
-  "Table_Constraints": [],
+  "Table_Constraints": [
+    {
+      "BAD": null,
+      "Columns": [
+        {
+          "COLUMN_NAME": "COL1",
+          "POSITION": 1.0,
+          "TABLE_NAME": "TEST"
+        }
+      ],
+      "CONSTRAINT_TYPE": "P",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "DELETE_RULE": null,
+      "GENERATED": "USER NAME",
+      "GENERATED_CONSTRAINT_NAME": "TANGO_TEST_PK1",
+      "INDEX_NAME": "TANGO_TEST_PK1",
+      "INVALID": null,
+      "R_CONSTRAINT_NAME": null,
+      "RELY": null,
+      "RemoteConstraint": [],
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "STATUS": "ENABLED",
+      "TABLE_NAME": "TEST",
+      "TYPE": "TABLE",
+      "VALIDATED": "VALIDATED",
+      "VIEW_RELATED": null
+    }
+  ],
   "Table_Indexes": []
 }
